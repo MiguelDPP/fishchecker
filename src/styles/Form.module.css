@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 10px;
+}
+.container h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 900;
+  width: 100%;
+  text-align: center;
+  background-color: #32e10b;
+  padding: 10px;
+  border-radius: 30px;
+  margin-bottom: 1rem;
+}
+
+.form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row {
+  width: 100%;
+}
+
+.label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  font-style: italic;
+  font-weight: 900;
+  width: 100%;
+  background-color: #eaec33;
+  padding: 10px;
+  border-radius: 30px;
+  margin-bottom: 1rem;
+}
+
+.control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+  margin-bottom: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+.button {
+  width: 200px;
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  text-align: center;
+  background-color: #32e10b;
+  color: #000;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-style: italic;
+  transition: all 0.3s ease-in-out;
+  border: #fff 2px solid;
+}
+.button:hover {
+  background-color: #fff;
+  color: #000;
+  border: #000 2px solid;
+}
